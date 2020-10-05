@@ -1,0 +1,16 @@
+<div style="margin-left: -2%;margin-top: -1%;background-color:white;bottom: 0;">
+    <br><br>
+    
+<form class="container panel-default col-md-4">
+<div class="form-group" align="center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQVkxY-QDfnSaMxfp6-KJgAIEL3z5t5BJpO7Q&usqp=CAU" width="150" height="100" alt=""><br>
+                <label>User Name</label>&nbsp;
+                <input type="text" name="uname" [(ngModel)]="model.username" placeholder="enter name" required><br><br>
+                <label>Password  </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" name="password" [(ngModel)]="model.password" placeholder="enter password" required><br><br>
+                <button (click)="login()" class="btn btn-sm btn-success">Log In</button>&nbsp;
+                <button type="reset" class="btn btn-danger">Cancel</button> 
+
+            </div>
+        </form>
+</div>

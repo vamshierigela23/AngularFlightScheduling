@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "flight-scheduling"
+    }
+  },
+  "defaultProject": "flight-scheduling",
+  "cli": {
+    "analytics": "092f252f-b6f7-4668-91d8-9e378ac6f694"
+  }
 }
